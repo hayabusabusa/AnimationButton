@@ -2,7 +2,9 @@
 Animate UIButton.
 
 ## Preview  
-![preview](https://github.com/hayabusabusa/AnimationButton/blob/master/preview.gif)  
+|AnimationButton |AnimationCheckMarkButton |SYRippleButton |  
+|:-:|:-:|:-:|  
+|![AnimationButton.gif](https://github.com/hayabusabusa/AnimationButton/blob/master/gif/AnimationButton.gif)|![AnimationCheckMarkButton.gif](https://github.com/hayabusabusa/AnimationButton/blob/master/gif/AnimationCheckMarkButton.gif)|![SYRippleButton](https://github.com/hayabusabusa/AnimationButton/blob/master/gif/SYRippleButton.gif)|
 
 ## Installation
 Just copy the `AnimationButton.swift` or `AnimationCheckMarkButton.swift` into your project.  
