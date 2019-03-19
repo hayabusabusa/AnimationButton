@@ -88,16 +88,52 @@
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z6F-ic-UDE" customClass="SYRippleButton" customModule="AnimationButton" customModuleProvider="target">
+                                <rect key="frame" x="87.5" y="410" width="200" height="60"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="3pH-r3-xi2"/>
+                                    <constraint firstAttribute="height" constant="60" id="LEP-IC-qe2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.0" height="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.59999999999999998"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ripple animation button" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gAD-lL-9kg">
+                                <rect key="frame" x="122" y="478" width="131" height="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="s2X-v5-dLL" firstAttribute="top" secondItem="lip-fU-5Mq" secondAttribute="bottom" constant="8" id="0rh-BO-BXh"/>
                             <constraint firstItem="L1m-bb-rcb" firstAttribute="top" secondItem="S9t-EO-bcq" secondAttribute="bottom" constant="70" id="6g5-g4-Zek"/>
+                            <constraint firstItem="Z6F-ic-UDE" firstAttribute="top" secondItem="L1m-bb-rcb" secondAttribute="bottom" constant="16" id="72j-87-RZk"/>
+                            <constraint firstItem="gAD-lL-9kg" firstAttribute="top" secondItem="Z6F-ic-UDE" secondAttribute="bottom" constant="8" id="GQI-6Z-Z15"/>
                             <constraint firstItem="ea5-bl-7Er" firstAttribute="trailing" secondItem="L1m-bb-rcb" secondAttribute="trailing" id="H78-Nk-VXE"/>
+                            <constraint firstItem="Z6F-ic-UDE" firstAttribute="centerX" secondItem="L1m-bb-rcb" secondAttribute="centerX" id="KKV-XU-Trj"/>
                             <constraint firstItem="lip-fU-5Mq" firstAttribute="centerX" secondItem="ea5-bl-7Er" secondAttribute="centerX" id="NTp-e3-8y3"/>
                             <constraint firstItem="L1m-bb-rcb" firstAttribute="top" secondItem="ea5-bl-7Er" secondAttribute="bottom" constant="70" id="VBj-j5-GdN"/>
                             <constraint firstItem="S9t-EO-bcq" firstAttribute="leading" secondItem="L1m-bb-rcb" secondAttribute="leading" id="VGR-gT-hVB"/>
                             <constraint firstItem="s2X-v5-dLL" firstAttribute="centerX" secondItem="lip-fU-5Mq" secondAttribute="centerX" id="W4J-BJ-Z90"/>
+                            <constraint firstItem="gAD-lL-9kg" firstAttribute="centerX" secondItem="Z6F-ic-UDE" secondAttribute="centerX" id="cDT-eH-1CM"/>
                             <constraint firstItem="lip-fU-5Mq" firstAttribute="top" secondItem="ea5-bl-7Er" secondAttribute="bottom" constant="8" id="cQ2-Jv-Pwn"/>
                             <constraint firstItem="b1B-qX-ner" firstAttribute="centerX" secondItem="S9t-EO-bcq" secondAttribute="centerX" id="egw-Ot-5zF"/>
                             <constraint firstItem="b1B-qX-ner" firstAttribute="top" secondItem="S9t-EO-bcq" secondAttribute="bottom" constant="8" id="k0b-UA-Dc2"/>
@@ -113,6 +149,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
     </scenes>
     <resources>

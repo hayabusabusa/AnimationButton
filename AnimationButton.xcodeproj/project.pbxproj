@@ -16,6 +16,7 @@
 		A402E55B223F2E480098B39A /* AnimationButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A402E55A223F2E480098B39A /* AnimationButtonUITests.swift */; };
 		A402E569223F2EA80098B39A /* AnimationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A402E568223F2EA80098B39A /* AnimationButton.swift */; };
 		A402E56B223F3A550098B39A /* AnimationCheckMarkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A402E56A223F3A550098B39A /* AnimationCheckMarkButton.swift */; };
+		A4A63713224074F800C2F139 /* SYRippleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A63712224074F800C2F139 /* SYRippleButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		A402E55C223F2E480098B39A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A402E568223F2EA80098B39A /* AnimationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationButton.swift; sourceTree = "<group>"; };
 		A402E56A223F3A550098B39A /* AnimationCheckMarkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationCheckMarkButton.swift; sourceTree = "<group>"; };
+		A4A63712224074F800C2F139 /* SYRippleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SYRippleButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 			children = (
 				A402E568223F2EA80098B39A /* AnimationButton.swift */,
 				A402E56A223F3A550098B39A /* AnimationCheckMarkButton.swift */,
+				A4A63712224074F800C2F139 /* SYRippleButton.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4A63713224074F800C2F139 /* SYRippleButton.swift in Sources */,
 				A402E569223F2EA80098B39A /* AnimationButton.swift in Sources */,
 				A402E53D223F2E460098B39A /* ViewController.swift in Sources */,
 				A402E56B223F3A550098B39A /* AnimationCheckMarkButton.swift in Sources */,
