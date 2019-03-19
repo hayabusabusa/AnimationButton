@@ -34,3 +34,7 @@ class YourViewController: UIViewController {
    
 }
 ```
+
+## TODO  
+- [ ] チェックマークのボタンを `CALayer` で作り直し  
+- [ ] `SYRippleButton` のタップ地点取得を有効にした時のアニメーションを改善
