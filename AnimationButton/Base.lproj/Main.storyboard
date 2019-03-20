@@ -120,12 +120,33 @@
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ExR-d2-sRy" customClass="SYCheckMarkButton" customModule="AnimationButton" customModuleProvider="target">
+                                <rect key="frame" x="157.5" y="509" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="3AA-Ed-b8I"/>
+                                    <constraint firstAttribute="height" constant="60" id="hvL-n3-MwN"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="checkMarkImage" value="ic_check"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="animation checkmark ( CALayer ver )" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3fq-Rk-LEQ">
+                                <rect key="frame" x="83" y="577" width="209" height="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="s2X-v5-dLL" firstAttribute="top" secondItem="lip-fU-5Mq" secondAttribute="bottom" constant="8" id="0rh-BO-BXh"/>
                             <constraint firstItem="L1m-bb-rcb" firstAttribute="top" secondItem="S9t-EO-bcq" secondAttribute="bottom" constant="70" id="6g5-g4-Zek"/>
                             <constraint firstItem="Z6F-ic-UDE" firstAttribute="top" secondItem="L1m-bb-rcb" secondAttribute="bottom" constant="16" id="72j-87-RZk"/>
+                            <constraint firstItem="ExR-d2-sRy" firstAttribute="centerX" secondItem="gAD-lL-9kg" secondAttribute="centerX" id="Co7-CB-hsR"/>
                             <constraint firstItem="gAD-lL-9kg" firstAttribute="top" secondItem="Z6F-ic-UDE" secondAttribute="bottom" constant="8" id="GQI-6Z-Z15"/>
                             <constraint firstItem="ea5-bl-7Er" firstAttribute="trailing" secondItem="L1m-bb-rcb" secondAttribute="trailing" id="H78-Nk-VXE"/>
                             <constraint firstItem="Z6F-ic-UDE" firstAttribute="centerX" secondItem="L1m-bb-rcb" secondAttribute="centerX" id="KKV-XU-Trj"/>
@@ -133,12 +154,15 @@
                             <constraint firstItem="L1m-bb-rcb" firstAttribute="top" secondItem="ea5-bl-7Er" secondAttribute="bottom" constant="70" id="VBj-j5-GdN"/>
                             <constraint firstItem="S9t-EO-bcq" firstAttribute="leading" secondItem="L1m-bb-rcb" secondAttribute="leading" id="VGR-gT-hVB"/>
                             <constraint firstItem="s2X-v5-dLL" firstAttribute="centerX" secondItem="lip-fU-5Mq" secondAttribute="centerX" id="W4J-BJ-Z90"/>
+                            <constraint firstItem="3fq-Rk-LEQ" firstAttribute="top" secondItem="ExR-d2-sRy" secondAttribute="bottom" constant="8" id="bvt-Ag-KVB"/>
                             <constraint firstItem="gAD-lL-9kg" firstAttribute="centerX" secondItem="Z6F-ic-UDE" secondAttribute="centerX" id="cDT-eH-1CM"/>
                             <constraint firstItem="lip-fU-5Mq" firstAttribute="top" secondItem="ea5-bl-7Er" secondAttribute="bottom" constant="8" id="cQ2-Jv-Pwn"/>
                             <constraint firstItem="b1B-qX-ner" firstAttribute="centerX" secondItem="S9t-EO-bcq" secondAttribute="centerX" id="egw-Ot-5zF"/>
                             <constraint firstItem="b1B-qX-ner" firstAttribute="top" secondItem="S9t-EO-bcq" secondAttribute="bottom" constant="8" id="k0b-UA-Dc2"/>
+                            <constraint firstItem="ExR-d2-sRy" firstAttribute="top" secondItem="gAD-lL-9kg" secondAttribute="bottom" constant="16" id="lff-Ch-i0x"/>
                             <constraint firstItem="L1m-bb-rcb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pOr-A0-VUp"/>
                             <constraint firstItem="L1m-bb-rcb" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="50" id="qu0-a6-xan"/>
+                            <constraint firstItem="3fq-Rk-LEQ" firstAttribute="centerX" secondItem="ExR-d2-sRy" secondAttribute="centerX" id="vU2-Rg-i5F"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
