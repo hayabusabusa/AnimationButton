@@ -2,9 +2,9 @@
 Animate UIButton.
 
 ## Preview  
-|AnimationButton |AnimationCheckMarkButton |SYRippleButton |  
-|:-:|:-:|:-:|  
-|![AnimationButton.gif](https://github.com/hayabusabusa/AnimationButton/blob/master/gif/AnimationButton.gif)|![AnimationCheckMarkButton.gif](https://github.com/hayabusabusa/AnimationButton/blob/master/gif/AnimationCheckMarkButton.gif)|![SYRippleButton](https://github.com/hayabusabusa/AnimationButton/blob/master/gif/SYRippleButton.gif)|
+|AnimationButton |AnimationCheckMarkButton |SYRippleButton |SYCheckMarkButton |  
+|:-:|:-:|:-:|:-:|  
+|![AnimationButton.gif](https://github.com/hayabusabusa/AnimationButton/blob/master/gif/AnimationButton.gif)|![AnimationCheckMarkButton.gif](https://github.com/hayabusabusa/AnimationButton/blob/master/gif/AnimationCheckMarkButton.gif)|![SYRippleButton](https://github.com/hayabusabusa/AnimationButton/blob/master/gif/SYRippleButton.gif)|![SYCheckMarkButton](https://github.com/hayabusabusa/AnimationButton/blob/master/gif/SYCheckmarkButton.gif)|
 
 ## Installation
 Just copy the `AnimationButton.swift` or `AnimationCheckMarkButton.swift` into your project.  
@@ -36,5 +36,5 @@ class YourViewController: UIViewController {
 ```
 
 ## TODO  
-- [ ] チェックマークのボタンを `CALayer` で作り直し  
+- [x] チェックマークのボタンを `CALayer` で作り直し  
 - [ ] `SYRippleButton` のタップ地点取得を有効にした時のアニメーションを改善
